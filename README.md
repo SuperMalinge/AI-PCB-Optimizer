@@ -50,14 +50,14 @@ venv\Scripts\activate
 
 source venv/bin/activate
 
-Install required packages:
+#Install required packages:
 pip install tensorflow numpy opencv-python PyQt6
 
-Run the application:
+#Run the application:
 
 python run.py
 
-Usage:
+#Usage:
 Launch the application using python run.py
 
 Click "Load Blueprint" to import your PCB design
@@ -68,14 +68,14 @@ Train the AI with your own datasets using "Train AI"
 
 Export the optimized design using "Export Result"
 
-Required:
+#Required:
 Python 3.8+
 TensorFlow 2.x
 OpenCV
 PyQt6
 NumPy
 
-Acknowledgments
+#Acknowledgments
 Inspired by professional PCB design tools like Altium Designer and KiCad
 
 Built with modern AI techniques for optimal design suggestions

@@ -1,0 +1,10 @@
+src/
+├── blueprint_ai/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── blueprint_analyzer.py
+│   ├── pcb_optimizer.py
+│   ├── design_validator.py
+│   └── data_processor.py
+└── example_usage.py
+

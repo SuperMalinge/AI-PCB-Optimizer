@@ -1,0 +1,54 @@
+QMainWindow {
+    background-color: #1e1e1e;
+}
+
+QWidget {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+QPushButton {
+    background-color: #0d47a1;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    min-width: 120px;
+}
+
+QPushButton:hover {
+    background-color: #1565c0;
+}
+
+QPushButton:pressed {
+    background-color: #0a3880;
+}
+
+QLabel {
+    font-size: 14px;
+    color: #e0e0e0;
+}
+
+QProgressBar {
+    border: 2px solid #424242;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #2d2d2d;
+}
+
+QProgressBar::chunk {
+    background-color: #0d47a1;
+}
+
+QFileDialog {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+QLabel#blueprint_display, QLabel#optimized_display {
+    background-color: #2d2d2d;
+    border: 2px solid #424242;
+    border-radius: 4px;
+}
